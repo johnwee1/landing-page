@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <title>Landing Page</title>
+    </head>
+
+    <body>
+        <div class="header boilerplate">
+            <div class="logo">
+                <h1 class="text">John's Website</h1>
+            </div>
+            <div class="nav">
+                <button class="b1" onclick="document.getElementById('top').scrollIntoView();">Home</button>
+                <button class="b2" onclick="document.getElementById('quote').scrollIntoView();">Quote</button>
+                <button class="b3" onclick="document.getElementById('banner').scrollIntoView();">Bottom</button>
+            </div>
+        </div>
+        <div class="placeholder"></div>
+        <div class="top" id="top">
+            <div class="text">
+                <h2>Hi. My name is John.</h2>
+                <p>The quick brown fox jumped over the lazy dog. The quick brown fox jumped over the lazy dog. The quick brown fox jumped over the lazy dog.</p>
+            </div>
+            <div class="imgframe">
+                <img src="portrait.jpg">
+            </div>
+        </div>
+        <div class="middle">
+            <div class="subtitle"><h4>my interests</h4></div>
+            <div class="elem-container">
+                <div class="elem e1">
+                    <h2>programming</h2>
+                    <p>To me, programming is at its core about problem solving. I am learning data structures and algorithms in my free time. Able to code in C++ and Python, and am currently learning javascript (and web dev in general)</p>
+                </div>
+                <div class="elem e2">
+                    <h2>finance</h2>
+                    <p>I decided to learn about finance because I wanted a better way to save my money. I think finance and investing are very interesting topics, especially because of its quantitative nature and its ability to shape the world at large.</p>
+                </div>
+                <div class="elem e3">
+                    <h2>photography + videography</h2>
+                    <p>There's something quite magical about making films that can tell stories, evoke emotion, but most importantly capture moments in time to cherish for years to come. Also scratches my creative itch in a way that forces me out.</p>
+                </div>
+            </div>
+        </div>
+        <div class="quote" id="quote">
+            <h1 class="text">"Is it just me, or does the selection of this font in particular and this color scheme draw an uncanny resemblance to our favourite state-run media outlet?"</h1>
+            <div class="author">-[redacted]</div>
+        </div>
+        <div class="contact-me">
+            <div class="banner" id="banner">
+                <div class="left">
+                    <h2>Ready to go on your next adventure?</h3>
+                    <p>I'm kind of running out of things to write at this point. I'm just filling enough text in this container to make it look nice and well.</p>
+                </div>
+                <button class="right">sign up now</button></div>
+            </div>
+        </div>
+        <div class="bottom boilerplate">
+            <p>&#169; the john project</p>
+        </div>
+    </body>
+</html>
